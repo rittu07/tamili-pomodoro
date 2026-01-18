@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tamil Pomodoro Timer</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f8f9fa;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .stat-item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .domain {
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .time {
+            color: #6c5ce7;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px;
+            background: #ff7675;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>📊 Screen Time</h2>
+    <div id="stats-list">
+        <!-- Stats injected here -->
+    </div>
+    <button id="reset-btn">Reset Stats</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>

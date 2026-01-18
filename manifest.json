@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Tamil Pomodoro Timer",
+    "version": "1.0",
+    "description": "Productivity tool with Tamil humor, Pomodoro timer, and distraction blocking.",
+    "permissions": [
+        "tabs",
+        "storage",
+        "alarms",
+        "scripting",
+        "notifications",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}
