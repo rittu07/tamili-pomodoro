@@ -20,7 +20,7 @@ Tamil Pomodoro Timer is a unique productivity tool that combines the Pomodoro te
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/tamil-pomodoro-timer.git
+    git clone https://github.com/rittu07/tamil-pomodoro-timer.git
     ```
 2.  Open Chrome and navigate to `chrome://extensions/`.
 3.  Enable **Developer mode**.
@@ -30,3 +30,4 @@ Tamil Pomodoro Timer is a unique productivity tool that combines the Pomodoro te
 
 -   Click the extension icon to view your dashboard and timer status.
 -   The extension automatically tracks site usage and will alert you when it's time for a break or if you're visiting a blocked site.
+
